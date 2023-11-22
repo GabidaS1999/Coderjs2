@@ -1,0 +1,46 @@
+.carousel-inner {
+    margin-top: 50px;
+    height: 400px;
+
+    .carousel-item {
+        height: inherit;
+
+        h5 {
+            padding-top: 50px;
+            font-family: 'Borel';
+            font-family: 'Dancing Script';
+            font-family: 'Mooli', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Prompt', sans-serif;
+            padding-right: 700px;
+            color: white;
+            font-size: 40px;
+        }
+
+        h4 {
+            padding-top: 50px;
+            font-family: 'Borel';
+            font-family: 'Dancing Script';
+            font-family: 'Mooli', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Prompt', sans-serif;
+            padding-right: 700px;
+            color: black;
+            font-size: 40px;
+        }
+
+        P {
+            padding-top: 40px;
+            padding-right: 700px;
+            color: white;
+            font-size: 30px;
+
+        }
+
+        img {
+            width: 300px;
+            height: inherit;
+        }
+    }
+
+}

@@ -1,0 +1,20 @@
+.pie-de-pagina{
+    border-top: 1px solid black;
+    width: 100%;
+    background-color: rgba(201, 181, 143, 0.856);
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    padding: 10px;
+    .info-nosotros{
+        ul{
+            
+            li{
+                padding-bottom: 10px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}

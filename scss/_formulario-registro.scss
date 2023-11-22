@@ -1,0 +1,78 @@
+.registro{
+    background-image: url(../Multimedia/fondo-registro.png);
+    background-size: 100%;
+    background-position-y: -50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .formulario{
+        position: relative;
+        left: 30%;
+        width: 450px;
+        height: 650px;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 5px;
+        .mb-3{
+            width: 400px;
+        }
+        h2{
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        form{
+            padding-left: 40px;
+            box-sizing: border-box;
+        }
+        .nombre{
+            padding-bottom: 30px;
+            position: relative;
+            
+            input{
+                width: 300px;
+                height: 30px;
+                outline: none;
+            }
+            label{
+               top: 50%;
+                position: absolute
+            }
+        }
+        .contraseña{
+            position: relative;
+            input{
+                width: 300px; 
+                height: 30px;
+                outline: none;
+            }
+            label{
+                text-align: center;
+                top: 95%;
+                position: absolute
+            }
+        }
+        .email{
+            padding-bottom: 30px;
+            position: relative;
+            input{
+                width: 300px; 
+                height: 30px;
+                outline: none;
+            }
+            label{
+                text-align: center;
+                top: 60%;
+                position: absolute
+            }
+        }
+        .recordar{
+            margin-left: 70px;
+            margin-top: 50px;
+        }
+        .sumbit{
+            margin-top: 20px;
+            width: 100px;
+            margin-left: 100px;
+        }
+        }
+}

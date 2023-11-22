@@ -1,0 +1,38 @@
+[
+    {
+        "id": "aca-no",
+        "titulo": "ACA NO!",
+        "imagen": "/Multimedia/TIENDA/ACA_NO.png",
+        "precio": "$635",
+        "descripcion": "Aca No! En aerosol 440ML"
+    },
+    {
+        "id": "cepillo-guante",
+        "titulo": "CEPILLO GUANTE",
+        "imagen": "/Multimedia/TIENDA/CEPILLO_GUANTE.png",
+        "precio": "$200",
+        "descripcion": "Guante cepillo 19x24 cm"
+    },
+    {
+        "id": "comedor",
+        "titulo": "COMEDOR",
+        "imagen": "/Multimedia/TIENDA/COMEDOR.png",
+        "precio": "$220",
+        "descripcion": "Comedor antideslizante."
+    },
+    {
+        "id": "comedor-plastico",
+        "titulo": "COMEDOR DE PLASTICO",
+        "imagen": "/Multimedia/TIENDA/Comedor_para_perros_y_gatos.png",
+        "precio": "$1190",
+        "descripcion": "Comedor de plastico."
+    },
+    {
+        "id": "correa",
+        "titulo": "CORREA RETRACTIL",
+        "imagen": "/Multimedia/TIENDA/Corre-retractil.png",
+        "precio": "$1690",
+        "descripcion": "Correa retráctil para perro."
+    } 
+    
+]

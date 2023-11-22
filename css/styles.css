@@ -1,0 +1,275 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script&family=Mooli&family=MuseoModerno:ital,wght@1,100&family=Poppins:wght@200&family=Prompt:ital,wght@1,200&display=swap");
+* {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: black;
+  font-size: 30px;
+}
+
+.navegador {
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: rgba(201, 181, 143, 0.856);
+}
+.navegador h1 {
+  justify-content: center;
+}
+.navegador a {
+  order: -1;
+}
+.navegador a img {
+  width: 150px;
+  height: 150px;
+}
+.navegador ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+.navegador ul li {
+  align-items: center;
+  margin: 10px;
+}
+.navegador ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.Tarjetas {
+  margin: 30px;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  border-radius: 3px;
+}
+
+.carousel-inner {
+  margin-top: 50px;
+  height: 400px;
+}
+.carousel-inner .carousel-item {
+  height: inherit;
+}
+.carousel-inner .carousel-item h5 {
+  padding-top: 50px;
+  font-family: "Borel";
+  font-family: "Dancing Script";
+  font-family: "Mooli", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Prompt", sans-serif;
+  padding-right: 700px;
+  color: white;
+  font-size: 40px;
+}
+.carousel-inner .carousel-item h4 {
+  padding-top: 50px;
+  font-family: "Borel";
+  font-family: "Dancing Script";
+  font-family: "Mooli", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Prompt", sans-serif;
+  padding-right: 700px;
+  color: black;
+  font-size: 40px;
+}
+.carousel-inner .carousel-item P {
+  padding-top: 40px;
+  padding-right: 700px;
+  color: white;
+  font-size: 30px;
+}
+.carousel-inner .carousel-item img {
+  width: 300px;
+  height: inherit;
+}
+
+.pie-de-pagina {
+  border-top: 1px solid black;
+  width: 100%;
+  background-color: rgba(201, 181, 143, 0.856);
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  padding: 10px;
+}
+.pie-de-pagina .info-nosotros ul li {
+  padding-bottom: 10px;
+}
+.pie-de-pagina .info-nosotros ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.inicio-de-sesion {
+  background-image: url(../Multimedia/fondo-formulario.png);
+  background-size: 100%;
+  background-position-y: -200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.inicio-de-sesion .formulario {
+  position: relative;
+  left: 35%;
+  width: 400px;
+  border: 1px solid black;
+  height: 400px;
+  background-color: white;
+  border-radius: 5px;
+}
+.inicio-de-sesion .formulario h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.inicio-de-sesion .formulario form {
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.inicio-de-sesion .formulario input {
+  width: 300px;
+  outline: none;
+}
+.inicio-de-sesion .formulario .contraseña {
+  position: relative;
+}
+.inicio-de-sesion .formulario .contraseña input {
+  width: 300px;
+  height: 30px;
+  outline: none;
+}
+.inicio-de-sesion .formulario .contraseña label {
+  text-align: center;
+  top: 90%;
+  position: absolute;
+}
+.inicio-de-sesion .formulario .recordar {
+  margin-left: 70px;
+  margin-top: 50px;
+}
+.inicio-de-sesion .formulario .sumbit {
+  margin-top: 20px;
+  width: 100px;
+  margin-left: 100px;
+}
+
+.registro {
+  background-image: url(../Multimedia/fondo-registro.png);
+  background-size: 100%;
+  background-position-y: -50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.registro .formulario {
+  position: relative;
+  left: 30%;
+  width: 450px;
+  height: 650px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+}
+.registro .formulario .mb-3 {
+  width: 400px;
+}
+.registro .formulario h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.registro .formulario form {
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.registro .formulario .nombre {
+  padding-bottom: 30px;
+  position: relative;
+}
+.registro .formulario .nombre input {
+  width: 300px;
+  height: 30px;
+  outline: none;
+}
+.registro .formulario .nombre label {
+  top: 50%;
+  position: absolute;
+}
+.registro .formulario .contraseña {
+  position: relative;
+}
+.registro .formulario .contraseña input {
+  width: 300px;
+  height: 30px;
+  outline: none;
+}
+.registro .formulario .contraseña label {
+  text-align: center;
+  top: 95%;
+  position: absolute;
+}
+.registro .formulario .email {
+  padding-bottom: 30px;
+  position: relative;
+}
+.registro .formulario .email input {
+  width: 300px;
+  height: 30px;
+  outline: none;
+}
+.registro .formulario .email label {
+  text-align: center;
+  top: 60%;
+  position: absolute;
+}
+.registro .formulario .recordar {
+  margin-left: 70px;
+  margin-top: 50px;
+}
+.registro .formulario .sumbit {
+  margin-top: 20px;
+  width: 100px;
+  margin-left: 100px;
+}
+
+.farmacia-cards {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 0.2fr);
+  gap: 50px;
+  justify-content: center;
+  margin: 10px;
+}
+.farmacia-cards div {
+  text-align: center;
+  align-items: center;
+  border: 1px solid black;
+  font-size: 15px;
+  width: 200px;
+}
+.farmacia-cards div img {
+  height: 200px;
+  width: 200px;
+}
+
+.swal2-styled.swal2-confirm.swalBtnColor {
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */

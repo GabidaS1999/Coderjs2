@@ -19,7 +19,8 @@ let usuarios = recuperarListaEnStorage();
 
 const isExisteUsuario =(usuarios = [], identificador = "") =>{
     return usuarios.some(
-        (unUsuario) => unUsuario.nombre === identificador
+        (unUsuario) => unUsuario.nombre === identificador,
+        (unUsuario) => unUsuario.email === identificador
     );
 }
 const getUsuario = (usuarios = recuperarListaEnStorage(), identificador = "") =>{

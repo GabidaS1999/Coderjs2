@@ -115,6 +115,14 @@ h1 {
   text-decoration: none;
   color: black;
 }
+.pie-de-pagina .redes ul li {
+  list-style: none;
+}
+.pie-de-pagina .redes ul li a {
+  font-style: none;
+  color: black;
+  font-size: 40px;
+}
 
 .inicio-de-sesion {
   background-image: url(../Multimedia/fondo-formulario.png);
@@ -263,6 +271,14 @@ h1 {
   font-size: 15px;
   width: 200px;
 }
+.farmacia-cards div .btn {
+  background-color: black !important;
+  color: white;
+}
+.farmacia-cards div p {
+  background-color: rgba(201, 181, 143, 0.856);
+  margin-bottom: 0 !important;
+}
 .farmacia-cards div img {
   height: 200px;
   width: 200px;
@@ -270,6 +286,13 @@ h1 {
 
 .swal2-styled.swal2-confirm.swalBtnColor {
   color: white;
+}
+
+.boton {
+  border-radius: 50px;
+  width: 150px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
